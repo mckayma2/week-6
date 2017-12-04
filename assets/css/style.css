@@ -1,7 +1,7 @@
 .container{
 background-image: url("../img/background.jpg");
 background-size:cover;
-height:760px;
+height:1224px;
 }
 
 .jumbotron{
@@ -9,5 +9,5 @@ text-align:center;
 }
 
 #searchResult{
-float:left;
+display:inline;
 }
