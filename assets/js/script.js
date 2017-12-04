@@ -1,9 +1,7 @@
 // A $( document ).ready() block.
 $( document ).ready(function() {
     console.log( "ready!" ); // Document ready test
-	console.log(btoa("api_key=jGjkDf7CiFRi5G2oJRrYmCfNFc9Kpc7u"));
-	console.log(atob("YXBpX2tleT1qR2prRGY3Q2lGUmk1RzJvSlJyWW1DZk5GYzlLcGM3dQ=="));
-
+	
 
 
 	$( "#button" ).click(function() {
