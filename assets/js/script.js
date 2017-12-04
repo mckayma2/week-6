@@ -19,7 +19,7 @@ $( document ).ready(function() {
 			var userresult;
 			//API PARAMETERS
 			//======================================================
-			$.get("readme.json", function(data){
+			$.get("assets/js/readme.json", function(data){
 			var whataguaan = atob(data.whataguaan);
 			console.log(whataguaan);
 			
