@@ -25,13 +25,15 @@ $( document ).ready(function() {
 			
 			var url = "https://api.giphy.com/v1/gifs/search";
 			url += '?';
-			url +=  + whataguaan +;
+			
 			console.log(whataguaan);
 			url +=  '&q=' + buttonText; //TO ADD THE USER IMPUT SEAR FIELD TO THE REQUEST
 			url +=  '&limit=5'; // TO LIMIT RESULTS TO 5
 			url +=  '&offset=0';
 			url +=  '&rating=G'; // TO SET CONTENT RATING TO G
-			url +=  '&lang=en';
+			url +=  '&lang=en&';
+			url +=  whataguaan;	
+				
 			
 			console.log("URL" + url);
 			//API SERVER REQUEST
