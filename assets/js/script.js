@@ -25,7 +25,7 @@ $( document ).ready(function() {
 			
 			var url = "https://api.giphy.com/v1/gifs/search";
 			url += '?';
-			url +=  + whataguaan ;
+			url +=  + whataguaan +;
 			url +=  '&q=' + buttonText; //TO ADD THE USER IMPUT SEAR FIELD TO THE REQUEST
 			url +=  '&limit=5'; // TO LIMIT RESULTS TO 5
 			url +=  '&offset=0';
