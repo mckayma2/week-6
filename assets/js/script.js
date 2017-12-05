@@ -50,14 +50,14 @@ $( document ).ready(function() {
 			//======================================================
 			for (var i = 0; i <5; i++){
 			// ORGANIZE QUERRY RESULTSET
-			var imgStill = userresult[i].images.original_still.url;
+			var imgStill = userresult[i].images.downsized_still.url;
 			var imgActive = userresult[i].images.downsized.url;
 			var title = userresult[i].title;
 			console.log(imgStill);
 			
                          // BUTTON CREATION
 			//======================================================
-			$("#searchResult").append('<div class="card-block" id="' + i +'"><p class="card-text"><h4 style="text-align: center;">'+ title +'<h4><img src='+ imgStill +' class="card-img-top" alt='+ title +'  width="200" height="200"></p></div>');
+			$("#searchResult").append('<div class="card-block" id="' + i +'"><p class="card-text"><h4 style="text-align: center;">'+ title +'<h4><img src='+ imgStill +' class="card-img-top" alt='+ title +'  width="120" height="120"></p></div>');
 			
 			}
 				
@@ -68,7 +68,7 @@ $( document ).ready(function() {
 				var clickedId = $(this).attr("id");
 				var imgElement = $(this).find("img");
 				var currentSrc = imgElement[0].src;
-				stillSrc = userresult[clickedId].images.original_still.url;
+				stillSrc = userresult[clickedId].images.downsized_still.url;
 				activeSrc = userresult[clickedId].images.downsized.url;
 				if ( currentSrc === stillSrc ){
 				//alert("still source");
