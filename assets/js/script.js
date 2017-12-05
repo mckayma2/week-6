@@ -57,7 +57,7 @@ $( document ).ready(function() {
 			
                          // BUTTON CREATION
 			//======================================================
-			$("#searchResult").append('<div class="card-block" id="' + i +'"><p class="card-text"><h4 style="text-align: center;">'+ title +'<h4><img src='+ imgStill +' class="card-img-top" alt='+ title +'  width="120" height="120"></p></div>');
+			$("#searchResult").append('<div class="card-block" id="' + i +'"><p class="card-text"><h6 style="text-align: center;">'+ title +'</h6><img src='+ imgStill +' class="card-img-top" alt='+ title +'  width="120" height="120"></p></div>');
 			
 			}
 				
