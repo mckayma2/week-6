@@ -28,7 +28,7 @@ $( document ).ready(function() {
 			
 			console.log(whataguaan);
 			url +=  '&q=' + buttonText; //TO ADD THE USER IMPUT SEAR FIELD TO THE REQUEST
-			url +=  '&limit=4'; // TO LIMIT RESULTS TO 5
+			url +=  '&limit=5'; // TO LIMIT RESULTS TO 5
 			url +=  '&offset=0';
 			url +=  '&rating=G'; // TO SET CONTENT RATING TO G
 			url +=  '&lang=en&';
